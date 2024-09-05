@@ -1,0 +1,16 @@
+
+
+.iconSocialMedia {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    border-width: 1px;
+    border-radius: 9999px;
+    padding: 12px;
+    height: 45px;
+}
+
+.iconSocialMedia:hover {
+    border-width: 3px;
+}

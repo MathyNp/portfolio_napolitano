@@ -1,0 +1,20 @@
+.buttonLink {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.25rem;
+    
+
+}
+
+.buttonLink:hover {
+    font-weight:400;
+   
+}
+
+
+
+
+nav {
+    background-color: rgba(0, 0, 0, .87);
+}

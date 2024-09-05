@@ -1,0 +1,56 @@
+.iconP {
+    width: 45px;
+    height: 45px;
+    padding: 4px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem ;
+    line-height: 1;
+}
+
+.imageP {
+    width: 33%;
+    border-radius: 20px;
+    max-height: 220px;
+}
+
+.imageP:hover {
+    width: 90%;
+}
+
+.itemT {
+    background-color: rgb(20, 20, 20);
+    padding: 8px;
+    border-radius: 30px;
+    border: solid 1px white;
+
+
+}
+
+.seeMore {
+   
+    color:white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    
+}
+
+.iconSocialMedia {
+    color: white;
+    font-size:3rem;
+    line-height: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    border-width: 1px;
+    border-radius: 9999px;
+    padding: 12px;
+    height: 45px;
+}
+
+.iconSocialMedia:hover {
+    border-width: 3px;
+}
