@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'Quantico': ["Quantico", "sans-serif"],
-        'Rubik' : ["Rubik Mono One", "monospace"]
+        'Rubik' : ["Rubik Mono One", "monospace"],
+        'Kanit' : ["Kanit", "sans-serif"]
+
       }
     },
   },

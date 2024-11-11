@@ -92,7 +92,7 @@ const Navbar = () => {
         <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 ">
             <div className="flex flex-row w-full justify-between">
-              <div className="flex gap-4">
+              <div className="flex gap-4 hover:font-bold">
                 <button>
                   <a className="buttonLink" href="#">
                     <svg
@@ -101,7 +101,7 @@ const Navbar = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="size-5"
+                      className="size-5 "
                     >
                       <path
                         strokeLinecap="round"
@@ -109,7 +109,7 @@ const Navbar = () => {
                         d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
                       />
                     </svg>
-                    Matias Napolitano
+                    matias_napolitano
                   </a>
                 </button>
               </div>
