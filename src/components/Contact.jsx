@@ -24,9 +24,9 @@ export const Contact = () => {
   };
 
   return (
-    <div className="max-w-screen mx-auto p-6 ">
-      <h1 className="font-Kanit text-white font-semibold text-4xl text-center mb-6 ">
-        contacto
+    <div className="max-w-screen mx-auto p-6 bg-black bg-opacity-30">
+      <h1 className="font-Kanit text-slate-200 opacity-55 font-semibold text-4xl text-center mb-6 ">
+        Contacto
       </h1>
       <form ref={form} onSubmit={sendEmail} className="max-w-lg mx-auto p-6 ">
         <div className="mb-4">

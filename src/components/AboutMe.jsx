@@ -13,7 +13,7 @@ const AboutMe = () => {
   return (
     <>
       <div
-        className=" font-Kanit max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center text-left min-h-screen  "
+        className=" font-Kanit max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 items-center text-left my-32  "
         id="aboutMe"
       >
         {/*  sadasdasd  */}
@@ -21,11 +21,11 @@ const AboutMe = () => {
         <div className=" max-w-full">
           <div className=" text-gray-300 font-light text-lg ">
             <div>
-              <h1 className="font-Kanit text-white font-semibold text-4xl text-center mb-6 ">
-                sobre_mi
+              <h1 className="font-Kanit text-slate-200 opacity-55 font-semibold text-4xl text-left mb-6 ">
+                Sobre Mi
               </h1>
             </div>
-            <div className="flex flex-wrap  gap-1 lg:justify-center ">
+            <div className="flex flex-wrap  gap-3 lg:justify-center ">
               <div className="col-span-12 sm:col-span-6 md:col-span-3">
                 <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1 ">
                   <div className="flex items-center justify-center flex-shrink-0 h-12 w-12  ">
