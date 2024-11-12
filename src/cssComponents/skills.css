@@ -1,13 +1,15 @@
 
 .iconSkill {
     font-size: 3rem;
-    margin: 10px;
-    color: #d0d0d0; 
-    background-color: rgba(0, 0, 0, .27);
+    color: black;
+    background-color: white;
     border-radius: 8px;
-    padding: 20px;
-
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8), -4px -4px 8px rgba(50, 50, 50, 0.1); 
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
     transition: transform 0.5s ease, box-shadow 0.2s ease;
 }
 

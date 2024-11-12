@@ -2,7 +2,7 @@ import React from "react";
 
 const ProyectCard = ({ name, desc, skills, link }) => {
   return (
-    <div className="max-w-sm min-w-80 min-h-72 rounded-lg shadow cardProyect flex-1 p-4">
+    <div className=" hover:scale-105 max-w-sm min-w-80 min-h-72 rounded-xl  cardProyect flex-1 p-4">
       <h5 className="mb-2 text-2xl font-light text-white ">{name}</h5>
 
       <p className="mb-3 text-gray-300 font-extralight text-sm text-justify">
@@ -10,7 +10,10 @@ const ProyectCard = ({ name, desc, skills, link }) => {
       </p>
       <div className="flex flex-wrap gap-1">
         {skills.map((skill, index) => (
-          <div key={index} className="text-xs rounded-md border p-2">
+          <div
+            key={index}
+            className="text-xs rounded-md border p-2 hover:scale-105"
+          >
             {skill}
           </div>
         ))}

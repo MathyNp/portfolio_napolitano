@@ -28,14 +28,19 @@ const Proyects = () => {
 
   return (
     <div
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-Kanit"
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-Kanit mt-20"
       id="proyects"
     >
       <div className="flex flex-col">
-        <h1 className="text-white font-semibold text-4xl mb-6">PROYECTOS</h1>
+        <p className="text-gray-300 ml-1 text-3xl  font-extralight mb-6">
+          <span className="text-3xl text-white font-Kanit font-semibold">
+            PROYECTOS |
+          </span>{" "}
+          FRONTEND{" "}
+        </p>
 
         <form className="flex max-w-md" onSubmit={handleSubmit}>
-          <div className="relative w-full">
+          <div className=" w-full">
             <input
               onChange={(e) => filterResult(e.target.value)}
               type="search"

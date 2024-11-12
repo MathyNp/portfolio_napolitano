@@ -13,16 +13,20 @@ import { PiCity } from "react-icons/pi";
 const AboutMe = () => {
   return (
     <>
-      <div className="font-Kanit max-w-7xl px-4 sm:px-6 lg:px-8 text-left  min-h-screen">
+      <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  text-left  mt-20  ">
         <div className="max-w-full " id="aboutMe">
           <div className="text-gray-300 font-light text-lg">
             <div>
-              <h1 className="font-Kanit text-white font-semibold text-4xl text-left mb-6 ">
-                SOBRE MI
-              </h1>
+              <p className="text-gray-300 ml-1 text-3xl  font-extralight mb-6">
+                <span className="text-3xl text-white font-Kanit font-semibold">
+                  SOBRE MI |
+                </span>{" "}
+                DATOS PERSONALES{" "}
+              </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center text-center">
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+            {/* fsdfsd */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 ">
+              <div className="flex flex-row ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <RxPerson />
                 </div>
@@ -32,7 +36,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row   ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <CiCalendarDate />
                 </div>
@@ -42,7 +46,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row    ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <IoIosPhonePortrait />
                 </div>
@@ -52,7 +56,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row    ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <MdOutlineAlternateEmail />
                 </div>
@@ -64,7 +68,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row    ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <LiaCitySolid />
                 </div>
@@ -76,7 +80,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row    ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <PiCity />
                 </div>
@@ -86,7 +90,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row   ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <GiWorld />
                 </div>
@@ -96,7 +100,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row    ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <IoSchoolOutline />
                 </div>
@@ -108,7 +112,7 @@ const AboutMe = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+              <div className="flex flex-row   ">
                 <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                   <RiKakaoTalkLine />
                 </div>
@@ -123,7 +127,7 @@ const AboutMe = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+                <div className="flex flex-row    ">
                   <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                     <VscGithub />
                   </div>
@@ -139,7 +143,7 @@ const AboutMe = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="flex flex-row bg-black rounded p-4 hover:translate-y-1">
+                <div className="flex flex-row    ">
                   <div className="flex items-center justify-center flex-shrink-0 h-12 w-12">
                     <TbBrandLinkedin />
                   </div>

@@ -28,14 +28,14 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="  text-white font-extralight fixed top-0  w-full z-50  shadow-lg left-0">
+      <nav className="  text-white font-extralight sticky top-0  w-full z-50  shadow-lg left-0">
         <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 ">
             <div className="flex flex-row w-full justify-between">
               <div className="flex gap-4 hover:font-bold">
                 <button>
-                  <a className=" text-white font-Kanit font-semibold" href="#">
-                    Portfolio
+                  <a className=" " href="#">
+                    <p>MN </p>
                   </a>
                 </button>
               </div>
