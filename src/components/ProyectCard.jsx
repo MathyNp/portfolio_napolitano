@@ -2,10 +2,9 @@ import React from "react";
 
 const ProyectCard = ({ name, desc, skills, link }) => {
   return (
-    <div className="max-w-sm min-w-80 rounded-lg shadow cardProyect flex-1 p-4">
-      <a href="#">
-        <h5 className="mb-2 text-2xl font-bold text-white">{name}</h5>
-      </a>
+    <div className="max-w-sm min-w-80 min-h-72 rounded-lg shadow cardProyect flex-1 p-4">
+      <h5 className="mb-2 text-2xl font-light text-white ">{name}</h5>
+
       <p className="mb-3 text-gray-300 font-extralight text-sm text-justify">
         {desc}
       </p>

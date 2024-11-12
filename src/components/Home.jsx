@@ -8,13 +8,15 @@ const Home = () => {
     <>
       <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center lg:text-center text-left  mt-36 ">
         <div className="flex flex-col items-center gap-3 py-16 ">
-          <p className="text-gray-300 ml-1 text-4xl md:text-center font-extralight ">
-            {" "}
-            MN{" "}
-            <span className="text-3xl text-white font-Kanit font-semibold">
-              desarrollador_web
-            </span>
-          </p>
+          <div className="flex">
+            <p className="text-gray-300 ml-1 text-3xl md:text-center font-extralight ">
+              <span className="text-3xl text-white font-Kanit font-semibold">
+                MN |
+              </span>{" "}
+              DESARROLLADOR FRONTEND{" "}
+            </p>
+          </div>
+          <div className="bg-white bg-opacity-50 w-[70%] h-[0.3px]"></div>
           <p className="text-gray-300 font-extralight font-Kanit text-lg ">
             ¡Hola! Soy Matías Napolitano,{" "}
             <span className=" font-normal text-white">
@@ -30,7 +32,7 @@ const Home = () => {
             , herramientas que utilizo para construir interfaces funcionales y
             estéticamente atractivas.
           </p>
-          <div className="bg-white bg-opacity-50 w-[70%] h-[0.3px] mt-10"></div>
+
           <Skills />
         </div>
       </div>
