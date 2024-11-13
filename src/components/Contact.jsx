@@ -29,14 +29,17 @@ export const Contact = () => {
     "
     >
       <p className="text-gray-300 ml-1 text-3xl font-extralight">
-        <span className="text-3xl text-white font-Kanit font-semibold">
+        <span
+          className="text-3xl text-white font-Kanit font-semibold"
+          id="contact"
+        >
           CONTACTO |
         </span>{" "}
         ENVIAR CORREO{" "}
       </p>
 
       <div className=" flex flex-row justify-between gap-3 mt-3">
-        <form ref={form} onSubmit={sendEmail} className="sm:w-1/3 w-full ">
+        <form ref={form} onSubmit={sendEmail} className="sm:w-1/2 w-full ">
           <div className="mb-4">
             <label
               htmlFor="user_name"
@@ -83,23 +86,28 @@ export const Contact = () => {
           </div>
 
           <div className="text-center">
-            <button
-              type="submit"
-              className="text-white bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 me-2 mb-2"
-            >
+            <button type="submit">
               <AiOutlineSend className="w-5 h-5 me-2 -ms-1" />
               Enviar mensaje
             </button>
           </div>
         </form>
-        <div className="w-2/3 flex md:block hidden ">
+        <div className="w-1/2 flex md:block hidden ">
           <p className="text-gray-300 font-extralight font-Kanit text-lg text-justify p-2 ">
             Estoy en busca de mi primera oportunidad en el mundo profesional del
-            desarrollo frontend. Si estás buscando a alguien con motivación,
-            ganas de aprender y una sólida base en HTML, CSS, JavaScript y
-            React, me encantaría conversar con vos. No dudes en contactarme a
-            través de LinkedIn o enviarme un mensaje directo. ¡Estoy listo para
-            comenzar mi carrera y aportar al equipo!
+            desarrollo frontend. Si estás buscando a alguien con motivación y
+            una sólida base en HTML, CSS, JavaScript y React, me encantaría
+            conversar con vos. No dudes en contactarme a través de{" "}
+            <a
+              href="https://www.linkedin.com/in/matias-napolitano-8a0a5a2bb/"
+              className=" font-normal"
+              target="blank"
+            >
+              {" "}
+              LinkedIn{" "}
+            </a>{" "}
+            o enviarme un mensaje directo. ¡Estoy listo para comenzar mi carrera
+            y aportar al equipo!
           </p>
         </div>
       </div>

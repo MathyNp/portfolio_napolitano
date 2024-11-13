@@ -1,10 +1,8 @@
 .cardProyect {
   font-size: 3rem;
-  margin: 10px;
-  color: #d0d0d0;
 
+  color: #d0d0d0;
   border-radius: 8px;
-  padding: 20px;
 }
 
 @media (max-width: 640px) {

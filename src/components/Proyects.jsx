@@ -28,33 +28,24 @@ const Proyects = () => {
 
   return (
     <div
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-Kanit mt-20"
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-Kanit "
       id="proyects"
     >
-      <div className="flex flex-col">
-        <p className="text-gray-300 ml-1 text-3xl  font-extralight mb-6">
-          <span className="text-3xl text-white font-Kanit font-semibold">
-            PROYECTOS |
-          </span>{" "}
-          FRONTEND{" "}
+      <div className="flex flex-col items-center w-full">
+        <p className="text-gray-300 ml-1 text-3xl font-extralight mb-6">
+          mis_proyectos
         </p>
 
-        <form className="flex max-w-md" onSubmit={handleSubmit}>
-          <div className=" w-full">
+        <form className="flex max-w-md w-full" onSubmit={handleSubmit}>
+          <div className="w-full">
             <input
               onChange={(e) => filterResult(e.target.value)}
               type="search"
-              className="text-gray-900 text-sm rounded-lg block w-full p-2"
+              className="text-white text-sm font-extralight border-[0.1px]  focus:border-[0.1px] focus:outline-none bg-black bg-opacity-25 rounded-lg block w-full p-2 placeholder-white"
               placeholder="Buscar por tecnología"
               value={inputValue}
               required
             />
-            <button
-              type="submit"
-              className="p-2.5 ms-2 text-sm font-medium text-white bg-black rounded-lg"
-            >
-              <span className="sr-only">Buscar</span>
-            </button>
           </div>
         </form>
       </div>
@@ -67,7 +58,7 @@ const Proyects = () => {
         </p>
       )}
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-y-10  mt-8">
         {filteredProyects.map((proyect, index) => (
           <ProyectCard
             key={index}
@@ -78,6 +69,10 @@ const Proyects = () => {
           />
         ))}
       </div>
+      <div
+        className="bg-white w-full h-[0.5px] bg-opacity-55 my-20"
+        id="aboutMe"
+      ></div>
     </div>
   );
 };

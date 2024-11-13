@@ -12,18 +12,17 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className="lg:px-40 px-0">
+        <Home />
 
-      <Home />
+        <Proyects />
 
-      <Skills />
+        <AboutMe />
 
-      <Proyects />
+        <Contact />
 
-      <AboutMe />
-
-      <Contact />
-
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }

@@ -4,6 +4,7 @@
   color: #d0d0d0;
   background-color: rgba(0, 0, 0, 0.27);
   border-radius: 8px;
+  border: solid rgba(255, 255, 255, 0.438)
 
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8),
     -4px -4px 8px rgba(50, 50, 50, 0.1);

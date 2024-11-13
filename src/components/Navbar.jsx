@@ -7,20 +7,26 @@ const Navbar = () => {
   const navLinks = (
     <>
       <button>
-        <a className="buttonLink  " href="#aboutMe">
-          Sobre mi
+        <a className="buttonLink hover:scale-90  " href="#">
+          inicio
         </a>
       </button>
 
       <button>
-        <a className="buttonLink" href="#proyects">
-          Proyectos
+        <a className="buttonLink hover:scale-90" href="#projects">
+          proyectos
         </a>
       </button>
 
       <button>
-        <a className="buttonLink" href="#contact">
-          Contacto
+        <a className="buttonLink hover:scale-90" href="#aboutMe">
+          sobre_mi
+        </a>
+      </button>
+
+      <button>
+        <a className="buttonLink hover:scale-90" href="#contact">
+          contacto
         </a>
       </button>
     </>
@@ -35,7 +41,20 @@ const Navbar = () => {
               <div className="flex gap-4 hover:font-bold">
                 <button>
                   <a className=" " href="#">
-                    <p>MN </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-5 hover:scale-75"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
+                      />
+                    </svg>
                   </a>
                 </button>
               </div>

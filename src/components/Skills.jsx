@@ -1,41 +1,41 @@
 const Skills = () => {
   return (
-    <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex  text-left   mt-5 ">
+    <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left   mt-5 flex flex-col ">
+      <p className="text-gray-300 ml-1 text-3xl  font-extralight ">
+        <span className="text-3xl text-white font-Kanit font-semibold">
+          TECNOLOGÍAS |
+        </span>{" "}
+        CONOCIMIENTOS
+      </p>
       <div className="flex flex-col  ">
-        <p className="text-gray-300 ml-1 text-3xl  font-extralight ">
-          <span className="text-3xl text-white font-Kanit font-semibold">
-            TECNOLOGÍAS |
-          </span>{" "}
-          LENGUAJES Y HERRAMIENTAS{" "}
-        </p>
-        <div className="flex flex-wrap mt-3  gap-3 text-white">
+        <div className="flex flex-wrap mt-3  gap-3 text-white items-center justify-center text-center bg-red-400">
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            REACT{" "}
+            React{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            HTML{" "}
+            Html{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            CSS{" "}
+            Css{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            JAVASCRIPT{" "}
+            Javascript{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            TAILWIND{" "}
+            Tailwind{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            GIT{" "}
+            Git{" "}
           </div>
           <div className="text-sm rounded-md border p-2 hover:scale-105">
             {" "}
-            VITE{" "}
+            Vite{" "}
           </div>
         </div>
       </div>
